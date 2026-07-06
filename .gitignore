@@ -1,0 +1,3 @@
+exports/postgres-dumpall-*.sql
+.DS_Store
+__pycache__/
