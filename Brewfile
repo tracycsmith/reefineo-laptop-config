@@ -5,7 +5,7 @@
 brew "awscli"
 brew "bcrypt"
 brew "direnv"
-brew "docker"            # CLI only — engine comes from OrbStack (see decision log)
+# brew "docker"          # DROPPED — OrbStack provides the docker CLI + engine (decision 2026-07)
 brew "fzf"
 brew "gh"
 brew "git"

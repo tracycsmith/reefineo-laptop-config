@@ -1,0 +1,50 @@
+{
+    autohide = 1;
+    enterMissionControlByTopWindowDrag = 0;
+    largesize = 92;
+    "last-analytics-stamp" =     (
+        "804786203.130617"
+    );
+    loc = "en_US:US";
+    magnification = 1;
+    "minimize-to-application" = 0;
+    "mod-count" = 32;
+    "mru-spaces" = 0;
+    "persistent-apps" =     (
+    );
+    "persistent-others" =     (
+                {
+            GUID = 2754456697;
+            "tile-data" =             {
+                arrangement = 2;
+                book = {length = 676, bytes = 0x626f6f6b a4020000 00000510 40000000 ... 04000000 00000000 };
+                displayas = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Users/tracysmith/Downloads/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = Downloads;
+                "file-mod-date" = 151736458328564;
+                "file-type" = 2;
+                "is-beta" = 0;
+                "parent-mod-date" = 15908117592575;
+                preferreditemsize = "-1";
+                showas = 1;
+            };
+            "tile-type" = "directory-tile";
+        }
+    );
+    "recent-apps" =     (
+    );
+    region = US;
+    "show-recents" = 0;
+    tilesize = 68;
+    "trash-full" = 1;
+    version = 1;
+    "wvous-br-corner" = 1;
+    "wvous-br-modifier" = 0;
+    "wvous-tl-corner" = 2;
+    "wvous-tl-modifier" = 0;
+    "wvous-tr-corner" = 1;
+    "wvous-tr-modifier" = 0;
+}

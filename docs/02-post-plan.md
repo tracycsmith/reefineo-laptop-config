@@ -16,7 +16,12 @@ Only after everything above is checked.
 2. Sign out / deauthorize (in order):
    - [ ] Music/TV: Account > Authorizations > Deauthorize This Computer
    - [ ] TurboTax: deactivate license if applicable
-   - [ ] Keyboard Maestro, CleanMyMac, Commander One, Scrivener, Plottr: deactivate license seats
+   - [ ] Deactivate license seats:
+     - [ ] Keyboard Maestro
+     - [ ] CleanMyMac
+     - [ ] Commander One
+     - [ ] Scrivener
+     - [ ] Plottr
    - [ ] 1Password: remove this device (from ANOTHER device, after wipe)
    - [ ] GitHub: Settings > Sessions — revoke old laptop; delete its SSH signing key entry if machine-specific
    - [ ] Sign out iCloud (System Settings > Apple ID > Sign Out) — removes Find My lock

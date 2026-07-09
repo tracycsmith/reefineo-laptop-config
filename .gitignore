@@ -1,3 +1,6 @@
 exports/postgres-dumpall-*.sql
+# Full `defaults read` dump — large (~MBs) and may contain semi-sensitive values.
+# Curated per-domain files in exports/macos-settings/ DO travel with the repo.
+exports/macos-settings/all-defaults.txt
 .DS_Store
 __pycache__/

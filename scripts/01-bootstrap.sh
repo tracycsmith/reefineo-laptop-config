@@ -24,6 +24,6 @@ mkdir -p ~/Documents/Obsidian
 
 echo "==> Clone laptop-config repo"
 REPO_DIR="$HOME/Development/refineo/code/refineo-laptop-config"
-[ -d "$REPO_DIR/.git" ] || gh repo clone tracycsmith/reefineo-laptop-config "$REPO_DIR"
+[ -d "$REPO_DIR/.git" ] || gh repo clone tracycsmith/refineo-laptop-config "$REPO_DIR"
 
 echo "==> Next: run $REPO_DIR/scripts/02-apps.sh"

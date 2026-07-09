@@ -1,0 +1,97 @@
+(
+        {
+        on = 1;
+        replace = cam;
+        with = "cam4.com";
+    },
+        {
+        on = 1;
+        replace = chatu;
+        with = "chaturbate.com";
+    },
+        {
+        on = 1;
+        replace = chatg;
+        with = chatgpt;
+    },
+        {
+        on = 1;
+        replace = tsmith;
+        with = "tsmith@phase2.io";
+    },
+        {
+        on = 1;
+        replace = sql;
+        with = psql;
+    },
+        {
+        on = 1;
+        replace = MCH;
+        with = MHC;
+    },
+        {
+        on = 1;
+        replace = "<--";
+        with = "\\U2190";
+    },
+        {
+        on = 1;
+        replace = "-->";
+        with = "\\U2192";
+    },
+        {
+        on = 1;
+        replace = artifcat;
+        with = artifact;
+    },
+        {
+        on = 1;
+        replace = postgreSql;
+        with = PostgreSQL;
+    },
+        {
+        on = 1;
+        replace = postgressql;
+        with = PostgreSQL;
+    },
+        {
+        on = 1;
+        replace = postgresql;
+        with = PostgreSQL;
+    },
+        {
+        on = 1;
+        replace = Finanical;
+        with = Financial;
+    },
+        {
+        on = 1;
+        replace = 1028;
+        with = "1028 S WALTER REED DR APT 731";
+    },
+        {
+        on = 1;
+        replace = omw;
+        with = "On my way!";
+    },
+        {
+        on = 1;
+        replace = "f/u";
+        with = "Follow Up";
+    },
+        {
+        on = 1;
+        replace = "sec.";
+        with = "\\U00a7";
+    },
+        {
+        on = 1;
+        replace = "c/o";
+        with = "\\U2105";
+    },
+        {
+        on = 1;
+        replace = tr;
+        with = "tracycsmith@gmail.com";
+    }
+)

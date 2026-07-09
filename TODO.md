@@ -2,9 +2,13 @@
 
 ## Now (before Friday)
 
-- [ ] Tracy: review plan docs + Brewfile, mark decisions (Docker engine, node versions)
+- [ ] Tracy: review `docs/software-inventory.md` — mark Keep/Drop/Decide per app, then edit Brewfile for Drops
+- [ ] Tracy: mark remaining decisions (Docker engine, node versions)
+- [ ] Keyboard Maestro macro review — what's still used? capture the screensnap trigger (see 00-pre-plan)
 - [ ] Run scripts/00-preflight-old-laptop.sh on old machine
+- [ ] Run scripts/00b-capture-settings.sh on old machine (macOS prefs → exports/macos-settings/)
 - [ ] Manual exports (KM, OBS, Stream Deck, Raycast, iTerm2, TablePlus)
+- [ ] Stage user data to external drive / network (see docs/data-transfer.md)
 - [ ] Move .env files + AWS creds + license keys into 1Password
 - [ ] Verify brew cask names: cleanmymac, commander-one, plottr
 

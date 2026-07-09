@@ -45,7 +45,8 @@ CHECKPOINT: `cd $PROJECT_REF && git status` clean; direnv allows `.envrc` in mhc
 
 ## Phase 6 — Services + Data (30 min)
 
-15. Restore data folders (Documents, Obsidian vault, Downloads/Personal) from backup/iCloud
+15. Restore user data from the external drive or network (rsync) — Documents, Obsidian
+    vault, Downloads/Personal, Desktop, Photos. Full steps: `docs/data-transfer.md`
 16. `scripts/06-services.sh` — Postgres 18 + dump restore, apple-card-filer launch agent
 17. OrbStack: launch, enable start-at-login; `docker compose up -d` per project
 18. Verify: `dev-mhc` starts, `dev-ps` shows ports 3000/3001/5173/5174
@@ -54,17 +55,31 @@ CHECKPOINT: apps reachable on their ports (see services-and-ports.md).
 
 ## Phase 7 — Apps config (45 min)
 
-19. Import manual exports: Keyboard Maestro macros, OBS scenes, Stream Deck profiles, Raycast, iTerm2 prefs, TablePlus connections
-20. Login items: confirm Keyboard Maestro Engine + Raycast (skip Evernote — dead)
-21. Licensed apps: enter keys from 1Password (KM, CleanMyMac, Commander One, Scrivener, Plottr)
-22. Obsidian: open vault, verify plugins
-23. Elgato: Camera Hub + Control Center + Stream Deck hardware test (streaming setup)
+19. Import manual exports:
+    - Keyboard Maestro macros (only if kept — see software-inventory.md decision)
+    - OBS scenes
+    - Stream Deck profiles
+    - Raycast settings & data
+    - iTerm2 prefs
+    - TablePlus connections
+20. Re-apply chosen macOS settings from `docs/macos-settings.md` (text replacements,
+    keyboard shortcuts, Finder/Dock/trackpad, default terminal = iTerm2, etc.) —
+    re-apply deliberately, not wholesale
+21. Login items: confirm Raycast (+ Keyboard Maestro Engine only if kept; skip Evernote — dead)
+22. Licensed apps: enter keys from 1Password:
+    - Keyboard Maestro (if kept)
+    - CleanMyMac
+    - Commander One
+    - Scrivener
+    - Plottr
+23. Obsidian: open vault, verify plugins
+24. Elgato: Camera Hub + Control Center + Stream Deck hardware test (streaming setup)
 
-CHECKPOINT: one full test stream/recording in OBS; one KM macro fires.
+CHECKPOINT: one full test stream/recording in OBS; one KM macro fires (only if KM kept).
 
 ## Phase 8 — Seal it
 
-24. Update this repo: note anything that differed from plan in docs/audit
-25. `git add -A && git commit -m "post-install state" && git push`
-26. Copy plan docs to Obsidian (already scripted — see repo README)
-27. Time Machine or backup tool: first backup of new machine
+25. Update this repo: note anything that differed from plan in docs/audit
+26. `git add -A && git commit -m "post-install state" && git push`
+27. Copy plan docs to Obsidian (already scripted — see repo README)
+28. Time Machine or backup tool: first backup of new machine

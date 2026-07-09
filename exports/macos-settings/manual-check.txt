@@ -1,0 +1,6 @@
+These are not reliably readable via `defaults` — confirm on the OLD machine and
+re-set on the NEW one:
+  [ ] Default web browser  (System Settings > Desktop & Dock > Default web browser)
+  [ ] Terminal you use     (goal: iTerm2 — quit Terminal.app, pin iTerm2)
+  [ ] Night Shift schedule (System Settings > Displays > Night Shift)
+  [ ] Menu-bar item order  (Sonoma+ stores much of this outside defaults)

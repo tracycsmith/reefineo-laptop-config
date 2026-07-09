@@ -20,7 +20,7 @@ REPOS=(
   "phase2/code/pims-ops-portal-legacy|Refineo-Studios-LLC/pims-ops-portal-legacy"
   "phase2/code/pims-ops-portal|phase2/pims-ops-portal"
   "refineo/code/personal-dam|Refineo-Studios-LLC/personal-dam"
-  "refineo/code/refineo-laptop-config|tracycsmith/reefineo-laptop-config"
+  "refineo/code/refineo-laptop-config|tracycsmith/refineo-laptop-config"
   "refineo/code/refineo-studios-site|Refineo-Studios-LLC/refineo-studios-site"
   "shared/code/claude-baseline|Refineo-Studios-LLC/claude-baseline"
   "shared/code/media-vault-ops|Ryder-Industries-LLC/media-vault-ops"

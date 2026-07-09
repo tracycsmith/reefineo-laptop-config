@@ -1,0 +1,4 @@
+/Users/tracysmith/.nvm/versions/node/v24.14.0/lib
+├── corepack@0.34.6
+└── npm@11.9.0
+

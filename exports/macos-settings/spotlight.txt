@@ -1,0 +1,40 @@
+{
+    DisabledUTTypes =     (
+    );
+    EnabledPreferenceRules =     (
+        "Custom.relatedContents",
+        "System.applications",
+        "System.iphoneApps",
+        "System.menuItems",
+        "com.apple.AppStore",
+        "com.apple.iBooksX",
+        "com.apple.calculator",
+        "com.apple.iCal",
+        "com.apple.AddressBook",
+        "com.apple.Dictionary",
+        "com.stairways.keyboardmaestro.editor",
+        "com.apple.mail",
+        "com.apple.MobileSMS",
+        "com.apple.Notes",
+        "com.apple.mobilephone",
+        "com.apple.Photos",
+        "com.apple.podcasts",
+        "com.apple.reminders",
+        "com.apple.Safari",
+        "com.apple.shortcuts",
+        "com.apple.systempreferences",
+        "ru.keepcoder.Telegram",
+        "com.apple.tips",
+        "com.apple.VoiceMemos",
+        "net.whatsapp.WhatsApp"
+    );
+    FTEResetForSuperSpotlight = 1;
+    PasteboardHistoryVersion = 2;
+    PreferencesVersion = 1;
+    SSActionKeyboardAliasStoreVersion = 1;
+    "__NSEnableTSMDocumentWindowLevel" = 1;
+    queryViewOptions = {length = 61, bytes = 0x62706c69 73743030 d101025c 64697370 ... 00000000 0000001a };
+    showedFTE = 1;
+    startTime = "803576606.265383";
+    useCount = 2;
+}

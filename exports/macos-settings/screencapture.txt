@@ -1,0 +1,16 @@
+{
+    "last-analytics-stamp" = "805247636.967186";
+    "last-selection" =     {
+        Height = 1080;
+        Width = 1920;
+        X = 277;
+        Y = 100;
+    };
+    "last-selection-display" = 0;
+    location = "~/Downloads/Screenshots";
+    "location-last" = "~/Downloads/Screenshots";
+    showsCursor = 1;
+    style = display;
+    target = file;
+    video = 0;
+}
