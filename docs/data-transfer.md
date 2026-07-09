@@ -105,3 +105,12 @@ find ~/Documents -type f | wc -l
 
 Only after data is verified **and** the Week-1 shakedown in `docs/02-post-plan.md` passes
 should the old machine be wiped and sold.
+
+## Transfer log — 2026-07-09 (executed)
+
+- Local backup of Desktop, Documents, Downloads/Personal -> ~/transfer-staging-20260709 (old Mac, 1.0G)
+- iCloud bucket archived: ALL prior content moved to iCloud Drive > "Archive - Old Mac Cleanup 2026-07" (nothing deleted; contains old-Mac Desktop/Documents/Downloads, Adam, Driving, File Cabinet, ~40 PDAM tmp files)
+- Downloads/Personal staged at Documents/_Transfer/Downloads-Personal (rides along with sync; move to ~/Downloads/Personal on new Mac, then delete _Transfer)
+- NEXT: enable Desktop & Documents sync on OLD Mac -> clean content becomes iCloud truth -> syncs down to new Mac
+- WATCH FOR: macOS may nest this Mac's files under "Documents - Refineo" style subfolders after enabling; flatten if so
+- Vault on new Mac: right-click Obsidian folder > Keep Downloaded
