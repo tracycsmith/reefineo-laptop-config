@@ -38,5 +38,7 @@
 - [ ] OrbStack first launch + Start at Login; docker compose up + re-seed project DBs
 - [ ] Obsidian vault open + Keep Downloaded
 - [ ] Straggler installs: TurboTax, Under My Roof, Plottr
+- [ ] Bind Cmd-/ to cb-cam4-post in Shortcuts.app on new Mac (see docs/keyboard-maestro-retirement.md)
+- [x] Keyboard Maestro: audited + retired, not installing
 - [ ] Commit-or-discard pass on WIP across repos (17 repos carry old uncommitted changes)
 - [ ] Week-1 shakedown per docs/02-post-plan.md, then wipe & sell old laptop
