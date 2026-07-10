@@ -3,6 +3,10 @@
 # @file 04-dev.sh
 # @description Dev toolchain: nvm/node versions, npm globals, pm2, VS Code extensions.
 set -euo pipefail
+
+# Explicit PATH — do not rely on inherited environment (fix 2026-07-10)
+export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/opt/homebrew/bin:/opt/homebrew/sbin:$PATH"
+
 REPO="$HOME/Development/refineo/code/refineo-laptop-config"
 export NVM_DIR="$HOME/.nvm"; mkdir -p "$NVM_DIR"
 source "$(brew --prefix nvm)/nvm.sh"

@@ -6,6 +6,10 @@
 #              .git dir in place. Working files are untouched and show up as
 #              uncommitted changes. Idempotent: skips repos that already have .git.
 set -uo pipefail
+
+# Explicit PATH — do not rely on inherited environment (fix 2026-07-10)
+export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/opt/homebrew/bin:/opt/homebrew/sbin:$PATH"
+
 DEV="$HOME/Development"
 TMP=$(mktemp -d)
 

@@ -6,6 +6,10 @@
 #              brand docs/assets) onto the fresh clones, restores ~/.aws and ~/.claude.
 #              RUN AFTER scripts/05-repos.sh. Never deletes anything (no --delete).
 set -euo pipefail
+
+# Explicit PATH — do not rely on inherited environment (fix 2026-07-10)
+export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/opt/homebrew/bin:/opt/homebrew/sbin:$PATH"
+
 T="$HOME/laptop-transfer"
 [ -d "$T" ] || { echo "ERROR: $T not found — AirDrop the laptop-transfer folder to home first"; exit 1; }
 

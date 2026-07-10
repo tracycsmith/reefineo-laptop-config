@@ -4,6 +4,10 @@
 # @description Clones every repo into the ~/Development/<brand>/code structure.
 #              Idempotent — skips repos that already exist.
 set -euo pipefail
+
+# Explicit PATH — do not rely on inherited environment (fix 2026-07-10)
+export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/opt/homebrew/bin:/opt/homebrew/sbin:$PATH"
+
 DEV="$HOME/Development"
 
 # "local/path|github-slug" — generated from audit 2026-07-06
