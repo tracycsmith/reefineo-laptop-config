@@ -28,9 +28,10 @@ export CLAUDE_BASELINE_DIR="$PROJECT_CLAUDE_BASELINE"
 
 source $(brew --prefix nvm)/nvm.sh
 
-cbplay() {
-  iina "$(yt-dlp -g https://chaturbate.com/$1/)"
-}
+# cbplay() — removed 2026-07-09; needed iina + yt-dlp (dropped). Restore both via brew if needed.
+# cbplay() {
+#   iina "$(yt-dlp -g https://chaturbate.com/$1/)"
+# }
 
 function iterm2_print_user_vars() {
   local repo=$(git rev-parse --show-toplevel 2>/dev/null)
