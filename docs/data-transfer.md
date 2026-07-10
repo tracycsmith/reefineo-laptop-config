@@ -114,3 +114,18 @@ should the old machine be wiped and sold.
 - NEXT: enable Desktop & Documents sync on OLD Mac -> clean content becomes iCloud truth -> syncs down to new Mac
 - WATCH FOR: macOS may nest this Mac's files under "Documents - Refineo" style subfolders after enabling; flatten if so
 - Vault on new Mac: right-click Obsidian folder > Keep Downloaded
+
+## Sync reconciliation — 2026-07-09 late (executed)
+
+What iCloud did when Desktop & Documents sync was enabled on the old Mac:
+- Nested this Mac's Documents under "Documents - Tracy's MacBook Pro (4)" (ComputerName, not hostname)
+- Resurrected archived Desktop junk back to the special Desktop folder (special folders cannot be archived wholesale — move CONTENTS only)
+
+Fix applied (old Mac, after brctl reported idle):
+- Documents flattened to top level; stray "ChatGPT Data" junk -> Archive
+- Desktop: 152 junk items -> Archive/Old Desktop; real items (devstarts.png, mhc-placeholder.png, setup-stephen-mac.sh) flattened
+- Machine-named subfolders removed
+
+LESSON: with iCloud Desktop & Documents, never move the special Desktop/Documents folders themselves; move their contents. Expect machine-named nesting when enabling on an additional Mac.
+
+SECURITY NOTE: 1Password Emergency Kit PDF found in old Desktop junk -> now in Archive/Old Desktop. Should NOT live in iCloud at all. Move to secure storage and delete from Archive + Recently Deleted.
