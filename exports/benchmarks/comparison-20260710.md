@@ -17,3 +17,14 @@ Takeaways: identical single-core (same M5 core gen); wins are +8 cores
 (parallel builds/docker), 2x RAM, 5x sequential write.
 (*) small-file regression likely Spotlight indexing on day-one machine —
 re-run 09-benchmark.sh after a few days to confirm.
+
+## Chrome (added same day)
+
+| | Refineo (old) | New M5 Pro |
+|---|---|---|
+| Speedometer 3 | 58.9 (± 3.9) | 63.2 (+7%) |
+| Lighthouse distractedlead.com | 95 / FCP 1.6s / LCP 2.2s | 95 / identical |
+
+Speedometer gain = higher sustained clocks + thermal headroom on the Pro.
+Lighthouse parity is expected (simulated throttling measures the page, not
+the machine) — both confirm the site itself scores 95.
