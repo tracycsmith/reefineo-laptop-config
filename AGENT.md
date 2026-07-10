@@ -3,7 +3,14 @@
 Purpose: reproducible laptop setup + self-documenting machine state for Tracy Smith.
 If a session dies, this file is the re-entry point.
 
-## State (2026-07-06)
+## State (2026-07-10) — NEW LAPTOP BUILT
+
+- Scripts 01-07 all executed successfully on new MacBook (user: tracycsmith)
+- Development WIP, .envs, .aws, .claude transferred via AirDrop bundle + script 07
+- iCloud Desktop & Documents: fresh-synced from old Mac after bucket archive (see docs/data-transfer.md)
+- Remaining: smoke test, Raycast/iTerm2 imports, week-1 shakedown, then wipe old laptop
+
+## Previous state (2026-07-06)
 
 - Full audit of old laptop complete → docs/audit-2026-07-06.md
 - Plan docs written: docs/00-pre-plan.md → 01-the-plan.md → 02-post-plan.md
