@@ -7,7 +7,7 @@ two custom macros; both replaced natively.
 
 | Macro | Hotkey | What it did | Replacement |
 |---|---|---|---|
-| cb-screenshot-to-mhc | Cmd-/ (Chrome-scoped) | Ran Apple Shortcut "cb-cam4-post" | Shortcuts.app > cb-cam4-post > Details > Add Keyboard Shortcut. Use Ctrl-Opt-Cmd-/ NOT Cmd-/ — native Shortcuts hotkeys are GLOBAL and Cmd-/ collides with VS Code toggle-comment |
+| cb-screenshot-to-mhc | Cmd-/ (Chrome-scoped) | Ran Apple Shortcut "cb-cam4-post" | FINAL SOLUTION: Raycast > Extensions > cb-cam4-post > Hotkey = Cmd-/. Native Shortcuts hotkey binding NEVER FIRED on the fresh machine (tried Cmd-/ and Ctrl-=) — do not trust Shortcuts Details-pane hotkeys; bind through Raycast. Prereq: script API key via Tampermonkey menu > Set MHC API Key (value = MHC_API_KEY) |
 | Obsidian Markdown | Cmd-Shift-L | Inserted "- [ ] " | Obsidian native checkbox toggle; or Raycast snippet + hotkey for system-wide |
 
 WHY KM EXISTED AT ALL: the "CB" macro group was app-scoped to Google Chrome only,
