@@ -37,7 +37,7 @@
 - [ ] Raycast: Import Settings & Data from exports/raycast
 - [ ] OrbStack first launch + Start at Login; docker compose up + re-seed project DBs
 - [ ] Obsidian vault open + Keep Downloaded
-- [ ] TurboTax: installer + license PDF in vault at 30 Finance/Records/Taxes/2025/TurboTax (iCloud-synced)
+- [x] TurboTax 2025: installed (x86 under Rosetta - accepted, one filing left). AFTER filing 2025 state taxes: delete TurboTax, Rosetta becomes removable-by-reinstall-only cruft (harmless). Rosetta exists ONLY for TurboTax.
 - [ ] Under My Roof: install from App Store for now (data lives there). PARKED IDEA: build a better home-inventory app - first step would be a Cowork session documenting UMR feature set. Revisit AFTER Refineo has clients and LWD book has momentum.
 - [x] Plottr: DECIDED - not installing. Trial-only, never purchased (confirmed via both email accounts). Revisit only when LWD book work actively needs a plotting tool. Rule: prove the workflow in a trial, then spend.
 - [ ] Bind Cmd-/ to cb-cam4-post in Shortcuts.app on new Mac (see docs/keyboard-maestro-retirement.md)
