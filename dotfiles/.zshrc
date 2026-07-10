@@ -79,8 +79,8 @@ ls -all
 # ── dev shortcuts (added 2026-04-19) ──────────────────────────────────────────
 # Start each project's dev stack (api + worker + web in parallel).
 # Foreground — Ctrl-C stops everything. Close the terminal window = same thing.
-alias dev-mhc='cd /Users/tracysmith/Development/mhc/code/mhc-cp && pnpm --parallel -r dev'
-alias dev-dam='cd /Users/tracysmith/Development/refineo/code/personal-dam && pnpm dev'
+alias dev-mhc='cd $HOME/Development/mhc/code/mhc-cp && pnpm --parallel -r dev'
+alias dev-dam='cd $HOME/Development/refineo/code/personal-dam && pnpm dev'
 # Kill all pnpm dev processes across both projects (use if Ctrl-C missed one).
 alias dev-stop='pkill -f "pnpm.*dev" || echo "nothing running"'
 # Show what's listening on the dev ports.
@@ -89,7 +89,7 @@ alias dev-ps='lsof -iTCP -sTCP:LISTEN -P -n 2>/dev/null | grep -E ":(3000|3001|5
 # ── joyCaption (added 2026-06-27) ─────────────────────────────────────────────
 # Start the JoyCaption Gradio UI at http://127.0.0.1:7860 (bf16 on Apple MPS).
 # Foreground — Ctrl-C stops it and frees the ~17GB. Subshell keeps your cwd unchanged.
-alias joycaption='(cd /Users/tracysmith/Development/mhc/code/joycaption/gradio-app && PYTORCH_ENABLE_MPS_FALLBACK=1 .venv/bin/python app.py)'
+alias joycaption='(cd $HOME/Development/mhc/code/joycaption/gradio-app && PYTORCH_ENABLE_MPS_FALLBACK=1 .venv/bin/python app.py)'
 # Stop a JoyCaption server and reclaim its memory (use if it is running in the background).
 alias joycaption-stop='pkill -f "gradio-app/app.py" && echo "stopped" || echo "nothing running"'
 # The following lines have been added by Docker Desktop to enable Docker CLI completions.

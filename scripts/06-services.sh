@@ -19,7 +19,8 @@ fi
 echo "==> apple-card-filer launch agent"
 mkdir -p "$HOME/Library/Application Support/Refineo/Scripts" "$HOME/Downloads/Personal"
 cp "$REPO/refineo-scripts/apple-card-statement-filer.py" "$HOME/Library/Application Support/Refineo/Scripts/"
-cp "$REPO/launchagents/com.refineo.apple-card-filer.plist" "$HOME/Library/LaunchAgents/"
+# Rewrite home path for this machine (launchd cannot expand $HOME)
+sed "s|/Users/tracysmith|$HOME|g" "$REPO/launchagents/com.refineo.apple-card-filer.plist" > "$HOME/Library/LaunchAgents/com.refineo.apple-card-filer.plist"
 launchctl unload "$HOME/Library/LaunchAgents/com.refineo.apple-card-filer.plist" 2>/dev/null || true
 launchctl load "$HOME/Library/LaunchAgents/com.refineo.apple-card-filer.plist"
 echo "    watching ~/Downloads/Personal; logs: ~/Library/Logs/apple-card-filer.*.log"
