@@ -1,5 +1,9 @@
 # TODO — refineo-laptop-config
 
+## DONE — migration executed 2026-07-10
+
+- [x] All scripts 01-08 run; repos grafted; node/pm2/finance-ops verified
+
 ## Now (before Friday)
 
 - [ ] Tracy: review `docs/software-inventory.md` — mark Keep/Drop/Decide per app, then edit Brewfile for Drops
@@ -25,3 +29,14 @@
 ## Post-migration cleanup (added 2026-07-09)
 
 - [ ] iCloud Documents cleanup — old-Mac folders ("Desktop - <machine>" etc.) surfaced when new MacBook enabled Desktop & Documents sync. CAUTION: two-way sync, deletions propagate to all machines. Do AFTER week-1 shakedown, not during migration.
+
+## Remaining (post-build, 2026-07-10)
+
+- [ ] Verify 06: `brew services list | grep postgres` + `ls ~/Library/LaunchAgents` on new Mac
+- [ ] iTerm2 prefs: copy exports/iterm2 plist BEFORE first iTerm2 launch config matters
+- [ ] Raycast: Import Settings & Data from exports/raycast
+- [ ] OrbStack first launch + Start at Login; docker compose up + re-seed project DBs
+- [ ] Obsidian vault open + Keep Downloaded
+- [ ] Straggler installs: TurboTax, Under My Roof, Plottr
+- [ ] Commit-or-discard pass on WIP across repos (17 repos carry old uncommitted changes)
+- [ ] Week-1 shakedown per docs/02-post-plan.md, then wipe & sell old laptop
