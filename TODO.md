@@ -39,7 +39,7 @@
 - [ ] Obsidian vault open + Keep Downloaded
 - [ ] TurboTax: installer + license PDF in vault at 30 Finance/Records/Taxes/2025/TurboTax (iCloud-synced)
 - [ ] Under My Roof: verify actually used before installing
-- [ ] Plottr: trial only, never purchased - buy or drop (decision pending)
+- [x] Plottr: DECIDED - not installing. Trial-only, never purchased (confirmed via both email accounts). Revisit only when LWD book work actively needs a plotting tool. Rule: prove the workflow in a trial, then spend.
 - [ ] Bind Cmd-/ to cb-cam4-post in Shortcuts.app on new Mac (see docs/keyboard-maestro-retirement.md)
 - [x] Keyboard Maestro: audited + retired, not installing
 - [ ] Commit-or-discard pass on WIP across repos (17 repos carry old uncommitted changes)
