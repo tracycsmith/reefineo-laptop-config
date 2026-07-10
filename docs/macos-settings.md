@@ -162,3 +162,11 @@ capture script snapshots the whole domain space so you can diff against a clean 
 To re-apply any single tweak: find the line in the captured file and turn it into a
 `defaults write <domain> <key> -<type> <value>`. Apply only the ones you deliberately
 changed — don't blanket-restore, or you'll import old cruft.
+
+## Text expansions — where they live (2026-07-10)
+
+- macOS Text Replacements (19: chatu, cam, MCH->MHC, address, emails, etc.):
+  System Settings > Keyboard > Text Replacements. Sync via iCloud automatically.
+  Snapshot: exports/macos-settings/text-replacements.txt
+- Raycast snippets (vv, dd): travel inside the Raycast settings export/import.
+  Manage in Raycast > Snippets.
